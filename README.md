@@ -75,7 +75,7 @@ sequenceDiagram
 | :--- | :--- | :--- |
 | **Frontend** | React.js, Custom CSS, TomTom Maps SDK | Interactive UI, route planning, real-time demand/surge heatmaps. |
 | **Backend** | FastAPI, Uvicorn, Python AsyncIO | High-performance, asynchronous REST API gateway. |
-| **Machine Learning**| XGBoost, Scikit-Learn, Pandas, NumPy | Regression modeling trained on 12,000+ ride data rows ($R^2 > 0.99$). |
+| **Machine Learning**| XGBoost, Scikit-Learn, Pandas, NumPy | Regression modeling trained on 12,000+ ride data rows. |
 | **GenAI** | Groq Cloud API, Llama 3.3 | Generates natural language pricing breakdowns and driver earning tips. |
 | **Deployment & Cloud**| AWS S3, CloudFront, Lambda, API Gateway | Serverless deployment scripts, edge routing, and automated asset cache invalidations. |
 
@@ -94,7 +94,6 @@ The model is trained on the following features:
 5. **Ride Mode** (Discounted Shared Rides vs. Premium Solo Rides).
 
 ### Model Performance Metrics
-* **$R^2$ Score**: `> 0.995` (representing near-perfect learning of compound multipliers).
 * **Mean Absolute Error (MAE)**: `< ₹5` deviation from theoretical pricing rules.
 
 ---

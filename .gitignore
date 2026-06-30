@@ -1,0 +1,51 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Local configuration files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Large archives/packages
+awscliv2.zip
+*.zip
+*.tar.gz
+*.tgz
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build/dist folders
+build/
+dist/
+out/
+.next/
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
